@@ -1,0 +1,14 @@
+{
+  "name": "amazon-playwright-express-scraper",
+  "version": "1.0.1",
+  "description": "Amazon.in top-20 scraper backend using Playwright + Express",
+  "main": "amazon_backend.js",
+  "scripts": {
+    "start": "node amazon_backend.js",
+    "check": "node --check amazon_backend.js"
+  },
+  "optionalDependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.48.0"
+  }
+}
